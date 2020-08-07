@@ -12,7 +12,7 @@ const instance = new vidbg(
 );
 const rellax = new Rellax(".rocket");
 window.onload = () => {
-  if (document.body.clientWidth <= 576) {
+  if (document.body.clientWidth <= 768) {
     rellax.destroy();
   }
   AOS.init();

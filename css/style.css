@@ -199,11 +199,6 @@ body {
   }
   .rocket {
     min-width: 180px;
-  }
-}
-
-@media (max-width: 576px) {
-  .rocket {
     position: static;
     margin-bottom: 30px;
   }
